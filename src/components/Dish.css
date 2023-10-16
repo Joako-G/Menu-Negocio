@@ -1,0 +1,8 @@
+.dish-square{
+  font-family: sans-serif;
+  width: 300px;
+  display: inline-block;
+  background-color: burlywood;
+  border-radius: 30px;
+  margin: 10px;
+}
