@@ -2,7 +2,7 @@ import { useContext, useEffect } from 'react';
 import './App.css';
 import DishList from './components/DishList';
 import { DishesContext } from './context/DishesContext';
-import { getDishes } from './service'
+import { getDishes } from './service/service'
 
 function App() {
   const { setDishes } = useContext(DishesContext);
