@@ -1,3 +1,4 @@
+import empanadas from '../assets/empanada.jpg'
 import tamales from '../assets/tamales.jpeg'
 import pLengua from '../assets/pLengua.jpg'
 import pPollo from '../assets/pPollo.jpeg'
@@ -11,7 +12,7 @@ export const dishes = [
     name: "Empanadas",
     price: "$2000",
     state: true,
-    img: tamales,
+    img: empanadas,
     id: 1,
   },
   {
