@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/Joako-G/Menu-Negocio",
+  "homepage": "https://Joako-G.github.io/Menu-Negocio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
