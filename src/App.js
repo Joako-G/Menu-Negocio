@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import { useContext, useEffect } from 'react';
 import './App.css';
+import DishList from './components/Dish/DishList';
+import { DishesContext } from './context/DishesContext';
+//import { getDishes } from './service/service'
+import { dishes } from './service/serviceLocal'
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
+  const { setDishes } = useContext(DishesContext);
+
+  useEffect( () => {
+    setDishes(dishes);
+    /*getDishes()
+    .then((data)=> {
+      setDishes(data);
+    })
+    .catch((error) => console.error(error));*/
+  }, [setDishes])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <DishList/>
+      <Footer/>
     </div>
   );
 }

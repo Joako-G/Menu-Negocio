@@ -1,0 +1,36 @@
+/** Footer **/
+footer {
+  background: #FFBA5A;
+  color: black;
+  height: 100%;
+}
+
+.direccion {
+  float: left;
+  text-align: left;
+  padding: 15px 0 15px 0px;
+}
+
+.direccion h1{
+  margin-bottom: 10px;
+}
+
+.redes {
+  float: right;
+  padding: 5px 0 15px 0;
+}
+
+#footer p {
+  display: inline-block;
+  font-size: 18px;
+}
+
+svg {
+  margin: 5px 10px 0 0;
+  height: 30px;
+  color: black;
+}
+
+#footer .wp{
+  margin-top: 0px;
+}

@@ -1,0 +1,27 @@
+#MyRow, #MyFooter{
+  margin: 0px;
+}
+header {
+  background: #FFBA5A;
+  padding: 15px;
+}
+
+#cabecera .logo {
+  text-align: center;
+}
+
+#cabecera img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+#cabecera .titulo {
+  text-align: center;
+}
+
+#cabecera h2 {
+  font-size: 50px;
+  margin-top: 35px;
+  letter-spacing: 10px;
+}
