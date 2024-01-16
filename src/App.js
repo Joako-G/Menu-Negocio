@@ -12,6 +12,7 @@ function App() {
 
   useEffect( () => {
     //setDishes(dishes);
+    //CAMBIOS
     getDishes()
     .then((data)=> {
       setDishes(data);
