@@ -1,23 +1,16 @@
 {
   "files": {
     "main.css": "/Menu-Negocio/static/css/main.5651ac37.css",
-    "main.js": "/Menu-Negocio/static/js/main.b99f03ea.js",
+    "main.js": "/Menu-Negocio/static/js/main.94aecb47.js",
     "static/js/787.6b503308.chunk.js": "/Menu-Negocio/static/js/787.6b503308.chunk.js",
-    "static/media/pLengua.jpg": "/Menu-Negocio/static/media/pLengua.551087d55bb8ba84f9b6.jpg",
     "static/media/logo.jpeg": "/Menu-Negocio/static/media/logo.29f498d838130ef3adbf.jpeg",
-    "static/media/chancho.jpeg": "/Menu-Negocio/static/media/chancho.19c2f534246fbd17496c.jpeg",
-    "static/media/polloHorno.jpeg": "/Menu-Negocio/static/media/polloHorno.2113a5174fe385d52f83.jpeg",
-    "static/media/pPollo.jpeg": "/Menu-Negocio/static/media/pPollo.2d8a1e7d72ac1bd932b5.jpeg",
-    "static/media/matambre.jpeg": "/Menu-Negocio/static/media/matambre.90800fc0a2d752463af2.jpeg",
-    "static/media/tamales.jpeg": "/Menu-Negocio/static/media/tamales.8997d594723d247e623e.jpeg",
-    "static/media/empanada.jpg": "/Menu-Negocio/static/media/empanada.cc222591f4f352264841.jpg",
     "index.html": "/Menu-Negocio/index.html",
     "main.5651ac37.css.map": "/Menu-Negocio/static/css/main.5651ac37.css.map",
-    "main.b99f03ea.js.map": "/Menu-Negocio/static/js/main.b99f03ea.js.map",
+    "main.94aecb47.js.map": "/Menu-Negocio/static/js/main.94aecb47.js.map",
     "787.6b503308.chunk.js.map": "/Menu-Negocio/static/js/787.6b503308.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5651ac37.css",
-    "static/js/main.b99f03ea.js"
+    "static/js/main.94aecb47.js"
   ]
 }
