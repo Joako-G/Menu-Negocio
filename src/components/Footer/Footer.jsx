@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <div className="col-3 redes offset-1">
             <h1>Redes Sociales</h1>
-            <a target="_blank" href="https://www.instagram.com/tamaljujuy/">
+            <a target="_blank" href="https://www.instagram.com/tamaljujuy/" rel="noopener noreferrer">
               <BsInstagram />
             </a>
           </div>

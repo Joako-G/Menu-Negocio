@@ -5,6 +5,7 @@ import "./DishList.css";
 
 const DishList = () => {
   const { dishes } = useContext(DishesContext);
+
   return (
     <>
       <div className="row" id="menu">
