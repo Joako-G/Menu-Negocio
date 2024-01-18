@@ -1,5 +1,6 @@
 /** Footer **/
 footer {
+  font-weight: bold;
   background: #FFBA5A;
   color: black;
   height: 100%;
@@ -17,7 +18,7 @@ footer {
 
 .redes {
   float: right;
-  padding: 5px 0 15px 0;
+  padding: 15px 0 15px 0px;
 }
 
 #footer p {
@@ -28,9 +29,14 @@ footer {
 svg {
   margin: 5px 10px 0 0;
   height: 30px;
+  font-size: 25px;
   color: black;
 }
 
 #footer .wp{
   margin-top: 0px;
+}
+
+.contacto {
+  padding: 15px 0 15px 0px;
 }
