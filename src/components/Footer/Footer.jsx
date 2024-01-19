@@ -1,6 +1,5 @@
 import "./Footer.css";
 import { BsWhatsapp } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
 import { GrInstagram } from "react-icons/gr";
 
 const Footer = () => {

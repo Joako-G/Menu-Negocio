@@ -1,18 +1,11 @@
-.tarjeta{
-  color: #665C84;
-}
 #dish{
   width: auto;
   text-align: center;
-  color: #665C84;
   margin-bottom: 10px;
   font-size: 20px;
-}
-.price{
-  color: #665C84;
-
+  color: paleturquoise;
 }
 img{
-  height: 300px;
+  height: 200px;
   width: auto;
 }
