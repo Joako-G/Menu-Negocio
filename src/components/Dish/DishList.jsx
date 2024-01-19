@@ -10,7 +10,7 @@ const DishList = () => {
     <>
       <div className="row" id="menu">
         <div className="col-11">
-          <div className="row">
+          <div className="row p">
             {dishes.map((dish) => (
                 <Dish
                   key={dish.id}
