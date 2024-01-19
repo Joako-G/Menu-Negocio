@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <footer>
         <div className="row" id="MyFooter">
-          <div className="col-3 direccion offset-1">
+          <div className="col-3 direccion">
             <h1>Direccion</h1>
             <p>Av. Carlos snopek N°1233 - Barrio Alto Comedero</p>
           </div>
