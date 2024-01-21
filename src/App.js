@@ -13,12 +13,32 @@ function App() {
   useEffect( () => {
     //setDishes(dishes);
     //CAMBIOS
-    getDishes()
+    console.log("Llamada a la API");
+    const fetchDishes = async () =>{
+      try{
+        const data = await getDishes();
+        setDishes(data);
+      } catch (error){
+        console.log("Error al conectar con la API");
+      }
+    }
+    
+    fetchDishes();
+
+    const intervalID = setInterval(() => {
+      fetchDishes();
+    }, 5000);
+
+    return () => clearInterval(intervalID);
+    /*getDishes()
     .then((data)=> {
       setDishes(data);
     })
-    .catch((error) => console.error(error));
+    .catch((error) => console.error(error));*/
   }, [setDishes])
+
+  
+
 
   return (
     <div className="App">
